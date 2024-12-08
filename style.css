@@ -3,6 +3,41 @@
     src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
-h1 {
+@font-face {
+    font-family: FigtreeItalic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+body {
     font-family: Figtree;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+h2 {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5%;
+}
+
+
+p {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#author-card {
+    display: inline-flex;
+}
+
+#header-img {
+    border-radius: 3%;
+    margin: auto;
 }
