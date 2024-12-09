@@ -12,6 +12,11 @@ body {
     font-family: Figtree;
     background-color: hsl(47, 88%, 63%);
     color: hsl(0, 0%, 7%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1:hover {
@@ -31,13 +36,20 @@ p {
 
 .container {
     background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 16px 16px 40px 16px;
 }
 
 #author-card {
     display: inline-flex;
+    justify-content: flex-start;
 }
 
 #header-img {
     border-radius: 3%;
+    width: 100%;
     margin: auto;
 }
